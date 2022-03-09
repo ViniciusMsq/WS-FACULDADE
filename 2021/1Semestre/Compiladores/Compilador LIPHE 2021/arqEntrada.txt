@@ -1,0 +1,14 @@
+PROGRAM Teste2;
+Label z;
+var	a, b, r : Integer;
+PROCEDURE Soma( x, y, resultado : Integer);
+ var	Aux : Integer;
+BEGIN
+  	Resultado := x+y;
+END Soma;
+begin
+	a:= 20;
+	b:= 30;
+	soma(a, b, r)
+	write('O resultado é', r);
+END Teste2.

@@ -1,0 +1,29 @@
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.exe
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.deps.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.runtimeconfig.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.runtimeconfig.dev.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.csprojAssemblyReference.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.AssemblyInfoInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.AssemblyInfo.cs
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.genruntimeconfig.cache
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.AssemblyInfoInputs.cache
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.AssemblyInfo.cs
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.dll
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.pdb
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.exe
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.deps.json
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.runtimeconfig.json
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.runtimeconfig.dev.json
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.dll
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\usoVetor.pdb
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\LibVetor.dll
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\bin\Debug\netcoreapp3.1\LibVetor.pdb
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.csproj.CopyComplete
+C:\Users\Vinic\DriveFai\2020\POO\usoVetor\obj\Debug\netcoreapp3.1\usoVetor.genruntimeconfig.cache

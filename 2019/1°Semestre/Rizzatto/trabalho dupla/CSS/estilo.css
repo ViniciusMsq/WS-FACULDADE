@@ -1,0 +1,23 @@
+body {
+    margin: : 0;
+    padding: : 0;
+    background: #FFFFFF url(../imagens/img1.jpg) repeat-x;
+    color: #333333;
+    font-family: Tahoma, Verdana;
+    text-align: center;
+    font-size: 11px;
+}
+
+#tudo{
+    width: 700px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 72px;
+}
+
+#topo {
+    height: 300px;
+    width: 700px;
+}

@@ -1,0 +1,10 @@
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\bin\Debug\SemaforoDinamico.exe.config
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\bin\Debug\SemaforoDinamico.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\bin\Debug\SemaforoDinamico.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\obj\Debug\SemaforoDinamico.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\obj\Debug\SemaforoDinamico.Form1.resources
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\obj\Debug\SemaforoDinamico.Properties.Resources.resources
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\obj\Debug\SemaforoDinamico.csproj.GenerateResource.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\obj\Debug\SemaforoDinamico.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\obj\Debug\SemaforoDinamico.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\SemaforoDinamico\obj\Debug\SemaforoDinamico.pdb

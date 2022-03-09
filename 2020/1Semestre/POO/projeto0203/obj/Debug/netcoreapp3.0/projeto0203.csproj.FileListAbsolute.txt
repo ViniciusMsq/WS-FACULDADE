@@ -1,0 +1,11 @@
+C:\Users\Vinic\OneDrive\projeto0203\bin\Debug\netcoreapp3.0\projeto0203.exe
+C:\Users\Vinic\OneDrive\projeto0203\bin\Debug\netcoreapp3.0\projeto0203.deps.json
+C:\Users\Vinic\OneDrive\projeto0203\bin\Debug\netcoreapp3.0\projeto0203.runtimeconfig.json
+C:\Users\Vinic\OneDrive\projeto0203\bin\Debug\netcoreapp3.0\projeto0203.runtimeconfig.dev.json
+C:\Users\Vinic\OneDrive\projeto0203\bin\Debug\netcoreapp3.0\projeto0203.dll
+C:\Users\Vinic\OneDrive\projeto0203\bin\Debug\netcoreapp3.0\projeto0203.pdb
+C:\Users\Vinic\OneDrive\projeto0203\obj\Debug\netcoreapp3.0\projeto0203.csprojAssemblyReference.cache
+C:\Users\Vinic\OneDrive\projeto0203\obj\Debug\netcoreapp3.0\projeto0203.AssemblyInfoInputs.cache
+C:\Users\Vinic\OneDrive\projeto0203\obj\Debug\netcoreapp3.0\projeto0203.AssemblyInfo.cs
+C:\Users\Vinic\OneDrive\projeto0203\obj\Debug\netcoreapp3.0\projeto0203.dll
+C:\Users\Vinic\OneDrive\projeto0203\obj\Debug\netcoreapp3.0\projeto0203.pdb

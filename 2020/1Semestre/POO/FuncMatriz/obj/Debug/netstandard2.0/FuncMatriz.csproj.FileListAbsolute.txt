@@ -1,0 +1,8 @@
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\FuncMatriz\bin\Debug\netstandard2.0\FuncMatriz.deps.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\FuncMatriz\bin\Debug\netstandard2.0\FuncMatriz.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\FuncMatriz\bin\Debug\netstandard2.0\FuncMatriz.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\FuncMatriz\obj\Debug\netstandard2.0\FuncMatriz.csprojAssemblyReference.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\FuncMatriz\obj\Debug\netstandard2.0\FuncMatriz.AssemblyInfoInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\FuncMatriz\obj\Debug\netstandard2.0\FuncMatriz.AssemblyInfo.cs
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\FuncMatriz\obj\Debug\netstandard2.0\FuncMatriz.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\FuncMatriz\obj\Debug\netstandard2.0\FuncMatriz.pdb

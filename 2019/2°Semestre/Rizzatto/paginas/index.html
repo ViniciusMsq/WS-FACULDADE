@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<style type="text/css">
+		#menu{
+			margin-top: 200px;
+			margin-left: 280px;
+			left: 300px; 
+			top: 150px; 
+			width: 715px; 
+			height: 100px;
+			overflow: auto;
+			background: #f0f0f0;
+		}
+	</style>
+	<script type="text/Javascript">
+		function close(){
+			window.close();
+		}
+		function openWin(site){
+			window.open(site);
+		}
+	</script>
+	<title>Menu</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="menu">
+	<form id="bot">
+		<center>
+			<input type="button" value="Cadastro Clientes" onclick='openWin("Cliente.html")'><br>
+			<input type="button" value="Cadastro Produto" onclick='openWin("Produto.html")'><br>
+			<input type="button" value="Vendas" onclick='openWin("Vendas.html")'><br>
+		</center>
+	</form>
+	</div>
+</body>
+</html>

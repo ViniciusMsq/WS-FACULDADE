@@ -1,0 +1,19 @@
+﻿Disciplina: AED III
+Assunto: Atividade Compensatória das aulas da semana de 30/03 a 04/04/2020
+
+Prezados, bom dia !
+
+Implementar o método QuickSort em C++ em uma função, o no programa principal (main), crie um vetor
+de números do tipo float de 1000 posições. Peça ao usuário que informe uma quantidade indeterminada e menor que 1000 de números, 
+para armazenar no vetor, e ordene esse vetor utilizando o método da QUICKSORT.
+
+Os conceitos encontram-se na área de downloads da central do aluno.
+
+O trabalho deve ser anexado na Central do Aluno em Atividades Online (novo) relacionado à respectiva atividade.
+
+O prazo para envio é até dia 11/04/2020 
+
+Att.
+
+Prof. Dr. André Mendes
+UniFAI

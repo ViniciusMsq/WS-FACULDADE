@@ -1,0 +1,10 @@
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\bin\Debug\Forma2d.exe.config
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\bin\Debug\Forma2d.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\bin\Debug\Forma2d.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\obj\Debug\Forma2d.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\obj\Debug\Forma2d.Form1.resources
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\obj\Debug\Forma2d.Properties.Resources.resources
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\obj\Debug\Forma2d.csproj.GenerateResource.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\obj\Debug\Forma2d.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\obj\Debug\Forma2d.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Forma2d\obj\Debug\Forma2d.pdb

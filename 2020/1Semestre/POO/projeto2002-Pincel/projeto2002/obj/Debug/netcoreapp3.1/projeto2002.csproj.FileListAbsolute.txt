@@ -1,0 +1,10 @@
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\bin\Debug\netcoreapp3.1\projeto2002.exe
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\bin\Debug\netcoreapp3.1\projeto2002.deps.json
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\bin\Debug\netcoreapp3.1\projeto2002.runtimeconfig.json
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\bin\Debug\netcoreapp3.1\projeto2002.runtimeconfig.dev.json
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\bin\Debug\netcoreapp3.1\projeto2002.dll
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\bin\Debug\netcoreapp3.1\projeto2002.pdb
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\obj\Debug\netcoreapp3.1\projeto2002.AssemblyInfoInputs.cache
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\obj\Debug\netcoreapp3.1\projeto2002.AssemblyInfo.cs
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\obj\Debug\netcoreapp3.1\projeto2002.dll
+C:\Users\UniFAI\Downloads\projeto2002\projeto2002\obj\Debug\netcoreapp3.1\projeto2002.pdb

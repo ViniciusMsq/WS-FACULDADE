@@ -1,0 +1,13 @@
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\bin\Debug\netcoreapp3.1\testeSobreCarga.exe
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\bin\Debug\netcoreapp3.1\testeSobreCarga.deps.json
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\bin\Debug\netcoreapp3.1\testeSobreCarga.runtimeconfig.json
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\bin\Debug\netcoreapp3.1\testeSobreCarga.runtimeconfig.dev.json
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\bin\Debug\netcoreapp3.1\testeSobreCarga.dll
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\bin\Debug\netcoreapp3.1\testeSobreCarga.pdb
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\obj\Debug\netcoreapp3.1\testeSobreCarga.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\obj\Debug\netcoreapp3.1\testeSobreCarga.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\obj\Debug\netcoreapp3.1\testeSobreCarga.AssemblyInfoInputs.cache
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\obj\Debug\netcoreapp3.1\testeSobreCarga.AssemblyInfo.cs
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\obj\Debug\netcoreapp3.1\testeSobreCarga.dll
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\obj\Debug\netcoreapp3.1\testeSobreCarga.pdb
+C:\Users\Vinic\DriveFai\2020\POO\sobreCarga\testeSobreCarga\obj\Debug\netcoreapp3.1\testeSobreCarga.genruntimeconfig.cache

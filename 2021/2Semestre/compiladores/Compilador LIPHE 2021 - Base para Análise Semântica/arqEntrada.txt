@@ -1,0 +1,22 @@
+PROGRAM Atividade;
+LABEL Rot1;
+LABEL Rot2;
+
+times : enum(aguia, porco, sardinha, bambi);
+a, p, s, b : boolean;
+a:=true;
+p:=false;
+s:=true;
+b:=true;
+
+begin
+
+If a OR s OR b then
+GOTO Rot1;
+endif
+If p then
+GOTO Rot2;
+endif
+Rot1 : write('Com mundial !');
+Rot2 : write('Sem mundial !');
+END Atividade.

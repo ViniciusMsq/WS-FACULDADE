@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caixa de Dialogo</title>
+	<script type="text/javascript">
+		var notaStr = prompt("Qual a sua nota?","");
+	 var trabStr = prompt("Qual o valor do trabalho?","");
+	 var nota = parseFloat(notaStr,10);
+	 var trab = parseFloat(trabStr,10);
+	 nota = nota*0.8 + trab*0.2;
+	 if(nota>=7){
+	 	alert("Sua nota é: " + nota + ", APROVADO" );
+	 }
+	 else{
+	 	alert("Sua nota é: " + nota + ", REPROVADO" );
+	 }
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

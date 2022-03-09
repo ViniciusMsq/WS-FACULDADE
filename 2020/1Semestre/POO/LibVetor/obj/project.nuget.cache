@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Et+d8lnqV2VwYoQoaJAftNyCvepoqJev6P6tCXmow8moiZ5s7YyGb2WkPEX0MyWHsnl0Is4BhKOHepzCf2470g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vinic\\DriveFai\\2020\\POO\\LibVetor\\LibVetor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

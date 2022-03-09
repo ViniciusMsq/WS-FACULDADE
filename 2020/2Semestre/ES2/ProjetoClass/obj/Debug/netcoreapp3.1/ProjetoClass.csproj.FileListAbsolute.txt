@@ -1,0 +1,13 @@
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\bin\Debug\netcoreapp3.1\ProjetoClass.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\bin\Debug\netcoreapp3.1\ProjetoClass.deps.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\bin\Debug\netcoreapp3.1\ProjetoClass.runtimeconfig.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\bin\Debug\netcoreapp3.1\ProjetoClass.runtimeconfig.dev.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\bin\Debug\netcoreapp3.1\ProjetoClass.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\bin\Debug\netcoreapp3.1\ProjetoClass.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\obj\Debug\netcoreapp3.1\ProjetoClass.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\obj\Debug\netcoreapp3.1\ProjetoClass.AssemblyInfoInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\obj\Debug\netcoreapp3.1\ProjetoClass.AssemblyInfo.cs
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\obj\Debug\netcoreapp3.1\ProjetoClass.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\obj\Debug\netcoreapp3.1\ProjetoClass.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\obj\Debug\netcoreapp3.1\ProjetoClass.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\ES2\ProjetoClass\obj\Debug\netcoreapp3.1\ProjetoClass.genruntimeconfig.cache

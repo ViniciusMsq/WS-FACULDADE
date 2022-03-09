@@ -1,0 +1,39 @@
+C:\Users\Vinic\OneDrive\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.exe
+C:\Users\Vinic\OneDrive\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.deps.json
+C:\Users\Vinic\OneDrive\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.runtimeconfig.json
+C:\Users\Vinic\OneDrive\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.runtimeconfig.dev.json
+C:\Users\Vinic\OneDrive\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.dll
+C:\Users\Vinic\OneDrive\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.pdb
+C:\Users\Vinic\OneDrive\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.csprojAssemblyReference.cache
+C:\Users\Vinic\OneDrive\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\OneDrive\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.AssemblyInfoInputs.cache
+C:\Users\Vinic\OneDrive\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.AssemblyInfo.cs
+C:\Users\Vinic\OneDrive\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.dll
+C:\Users\Vinic\OneDrive\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.pdb
+C:\Users\Vinic\OneDrive\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.genruntimeconfig.cache
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.exe
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.deps.json
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.runtimeconfig.json
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.runtimeconfig.dev.json
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.dll
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.pdb
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.csprojAssemblyReference.cache
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.AssemblyInfoInputs.cache
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.AssemblyInfo.cs
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.dll
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.pdb
+C:\Users\Vinic\OneDrive\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.genruntimeconfig.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.exe
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.deps.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.runtimeconfig.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.runtimeconfig.dev.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\bin\Debug\netcoreapp3.1\CadastroAluno.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.csprojAssemblyReference.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.AssemblyInfoInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.AssemblyInfo.cs
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\CadastroAluno\obj\Debug\netcoreapp3.1\CadastroAluno.genruntimeconfig.cache

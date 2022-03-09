@@ -1,0 +1,39 @@
+UNIFAI - Centro Universitário de Adamantina
+
+Ciência da Computação e Tecnologia em Desenvolvimento e Análise de Sistemas
+
+Aplicações WEB I / Desenvolvimento Font-End para WEB I 
+
+Prof. Márcio Roberto Rizzatto
+
+
+ Trabalho 1: por e-mail
+  
+     Assunto:    DFW-Botões-Nome Completo-RA
+
+     e-mail:     rizzatto@gmail.com
+
+
+ Trabalho 2: por e-mail
+
+     Assunto:    DFW-CSS-Nome Completo-RA
+
+     e-mail:     rizzatto@gmail.com
+
+ Questões:
+ 
+ 1) Quais são as tags e cite um exemplo:
+ a) tabela;
+ b) formulário;
+ c) CSS. 
+
+ 2) Quais são as subtags da tag <form> cite um exemplo:
+ a) texto;
+ b) botão de rádio;
+ c) área de texto.
+
+ 3) Desenvolva um script CSS que tenha:
+ a) parágrafos com fonte "Times New Roman" com tamanho 16 e cor vermelha;
+ b) formulário com texto em azul e cor de fundo do texto em amarelo <input type="text">;
+ c) tabela com grade em com verde e fonte em cor azul.
+

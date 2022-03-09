@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-br">
+   <head>
+      <title> Página Javascrip </title>
+	  <meta charset="utf-8">
+	  
+	  <script language="JavaScript">
+
+	     function clicar(form)
+		 {
+		   var t = eval(form.preco.value) * eval(form.estoque.value);
+		   form.valor.value = t;
+		 } // function clicar
+	  
+	  </script>
+	  
+   </head>
+   
+   
+
+<body>
+  <form>
+     <h1>Cadastro de Produtos</h1><br><br>
+	 <h3>Código:<input type="text" name="codigo" size="30"></h3><br><br>
+	 <h3>Descrição:<input type="text" name="descricao" size="70"></h3><br><br>	 
+	 <h3>Preço:<input type="text" name="preco" size="40"></h3><br><br>
+	 <h3>Estoque:<input type="text" name="estoque" size="40"></h3><br><br>	 
+     <input type="button" name="total" value="Calcular Total" onClick="clicar(this.form)" ><br><br>
+	 <h3>Total em valores do produto:<input type="text" name="valor" size="40" value="0"></h3><br><br>  
+	  <input type="button" name="fechar" value="Sair" onclick="javascript:window.close();">
+  </form>
+
+</body>
+</html>

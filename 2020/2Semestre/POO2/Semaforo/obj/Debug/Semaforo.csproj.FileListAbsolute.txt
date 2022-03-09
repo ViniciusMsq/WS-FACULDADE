@@ -1,0 +1,10 @@
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\bin\Debug\Semaforo.exe.config
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\bin\Debug\Semaforo.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\bin\Debug\Semaforo.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\obj\Debug\Semaforo.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\obj\Debug\Semaforo.Form1.resources
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\obj\Debug\Semaforo.Properties.Resources.resources
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\obj\Debug\Semaforo.csproj.GenerateResource.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\obj\Debug\Semaforo.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\obj\Debug\Semaforo.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Semaforo\obj\Debug\Semaforo.pdb

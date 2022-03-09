@@ -1,0 +1,13 @@
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\bin\Debug\netcoreapp3.1\Projeto_Estatico.exe
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\bin\Debug\netcoreapp3.1\Projeto_Estatico.deps.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\bin\Debug\netcoreapp3.1\Projeto_Estatico.runtimeconfig.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\bin\Debug\netcoreapp3.1\Projeto_Estatico.runtimeconfig.dev.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\bin\Debug\netcoreapp3.1\Projeto_Estatico.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\bin\Debug\netcoreapp3.1\Projeto_Estatico.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\obj\Debug\netcoreapp3.1\Projeto_Estatico.csprojAssemblyReference.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\obj\Debug\netcoreapp3.1\Projeto_Estatico.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\obj\Debug\netcoreapp3.1\Projeto_Estatico.AssemblyInfoInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\obj\Debug\netcoreapp3.1\Projeto_Estatico.AssemblyInfo.cs
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\obj\Debug\netcoreapp3.1\Projeto_Estatico.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\obj\Debug\netcoreapp3.1\Projeto_Estatico.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Projeto_Estatico\obj\Debug\netcoreapp3.1\Projeto_Estatico.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+Exercício: (pode ser copiado este conteudo do chat)
+- Fazer a gravação dos dados de um arquivo A para
+  um arquivo B (vai sobrepor o conteudo existente)
+  (criar um método) - talvez seja necessário algum 
+  método adicional ou alterar um existente ...
+
+- Criar um método que receba uma string (um nome) e 
+  verifique se a string (nome) se encontra no arquivo, 
+  se encontrar deve retornar a string do registro dos 
+  dados (linha inteira com os campos separadores ";"). 
+  Exemplo: "Ana" procurar a existencia no arquivo, 
+  se encontrar retornar a string, senao retornar null, 
+  retornar o 1° que encontrar (parte que não saiu)

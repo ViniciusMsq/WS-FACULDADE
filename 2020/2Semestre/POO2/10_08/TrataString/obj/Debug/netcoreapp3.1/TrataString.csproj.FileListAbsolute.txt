@@ -1,0 +1,13 @@
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\bin\Debug\netcoreapp3.1\TrataString.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\bin\Debug\netcoreapp3.1\TrataString.deps.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\bin\Debug\netcoreapp3.1\TrataString.runtimeconfig.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\bin\Debug\netcoreapp3.1\TrataString.runtimeconfig.dev.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\bin\Debug\netcoreapp3.1\TrataString.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\bin\Debug\netcoreapp3.1\TrataString.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\obj\Debug\netcoreapp3.1\TrataString.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\obj\Debug\netcoreapp3.1\TrataString.AssemblyInfoInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\obj\Debug\netcoreapp3.1\TrataString.AssemblyInfo.cs
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\obj\Debug\netcoreapp3.1\TrataString.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\obj\Debug\netcoreapp3.1\TrataString.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\obj\Debug\netcoreapp3.1\TrataString.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\10_08\TrataString\obj\Debug\netcoreapp3.1\TrataString.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+- Primeiro resgato a imagem
+- depois pego toda a matriz de pixels dela
+- crio uma matriz nova com mesma proporção
+
+então entraria um laço de repetição para o eixo y
+    e entraria em outro para o eixo x
+        
+        então alocaria cada valor de cada pixel da matriz principal, 4 posiões a frente na nova matriz (y, x+4)
+        
+        e no caso dos ultimos 4 valores apos percorrer todos os pixels (x ou y for maior que x_total e y_total), 
+            eles serão colocados, nas 4 primeiras casas que estão vazias respectivamente
+

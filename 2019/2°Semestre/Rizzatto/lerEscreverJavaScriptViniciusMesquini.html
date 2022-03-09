@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ler e Escrever Arquivos Texto com html e Javascript</title>
+<meta charset="utf-8">
+<script type="text/javascript">
+	function saveTextAsFile(){
+		var textToSave = document.getElementById("inputTextTosave").value;
+		var textToSaveAsBlob = new blob([textToSave], {type:"text/plain"});
+		var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
+		var fileNameToSaveAs = document.getElementById("inputFileNameToSaveAs").value;
+
+		var downloadLink = document.createElement("a");
+		downloadLink.download = inptFileNameSaveAs;
+		downloadLink.innerHTML = "Download File";
+		downloadLink.href = textToSaveAsURL;
+		downloadLink.onclick = destroyclickedElement;
+		downloadLink.style.display = "none";
+		document.body.appendChild(downloadLink);
+		downloadLink.click();
+	}
+
+	function destroyClickedElement(event){
+		document.body.removeChild(event.target);
+	}
+	function loadFileAsText(){
+		var fileToLoad = document.getElementById("fileToLoad").files[0];
+		var fileReader = new FileReader();
+		fileReader.onload = function(fileLoadedEvent){
+			var textFromFileLoades = fileLoadedEvent.target.result;
+			document.getElementById("inputTextToSave").value = textFromFileLoaded;
+		};
+		fileReader.readAsText(fileToLoad, "UTF-8");
+	}
+</script>
+
+</head>
+<body>
+	<p><h2>Ler e Escrever Arquivos texto com html e javascript</h2></p><br>
+	<table>
+		<tr><td>Texto para salvar</td></tr>
+		<tr><td colspan="3"><textarea id="inputTextTosave" cols="80" rows="25"></textarea></td></tr>
+		<tr><td>Nome do arquivo texto para salvar: </td>
+			<td><input type="text" id="inptFileNameSaveAs"></td>
+			<td><button onclick="saveTextAsFile()">Salvar Texto para o Arquivo (*.TXT)</button></td>
+		</tr>
+		<tr><td>Selecione o arquivo texto para ler:</td>
+			<td><input type="file" id="fileToLoad"></td>
+			<td><button onclick="loadFileAsText()">Ler Arquivo selecionado (*.TXT)</button></td></tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,26 @@
+Introdução a Computação / Introdução a Computação e Sistemas de Inf.
+
+
+
+Atividades do 2º Bimestre - valor 1 (um) ponto:
+
+1) Definir:
+
+a) Sistema de Informação em TI.
+b) Exemplos (Nome, fabricante, site, etc.) de:
+- ERP;
+- SIG;
+- SIT;
+- SPT;
+- SAD;
+- CRM;
+- SIE;
+- Dataware house;
+- Dataminig;
+- Workflow;
+- E-commerce (B2B e B2C).
+
+2. Desafio: encontrar um software gratuíto para ERP - baixar, 
+instalar e apresentar dia 24/05/2018 em grupo.
+
+Entrega: 24/05/2018 em Papel.

@@ -1,0 +1,10 @@
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\obj\Debug\Relogio.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\obj\Debug\Relogio.Form1.resources
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\obj\Debug\Relogio.Properties.Resources.resources
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\obj\Debug\Relogio.csproj.GenerateResource.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\obj\Debug\Relogio.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\bin\Debug\Relogio.exe.config
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\bin\Debug\Relogio.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\bin\Debug\Relogio.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\obj\Debug\Relogio.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Relogio\obj\Debug\Relogio.pdb

@@ -1,0 +1,13 @@
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\obj\Debug\netcoreapp3.1\Aula0508B.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\obj\Debug\netcoreapp3.1\Aula0508B.AssemblyInfoInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\obj\Debug\netcoreapp3.1\Aula0508B.AssemblyInfo.cs
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\obj\Debug\netcoreapp3.1\Aula0508B.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\bin\Debug\netcoreapp3.1\Aula0508B.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\bin\Debug\netcoreapp3.1\Aula0508B.deps.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\bin\Debug\netcoreapp3.1\Aula0508B.runtimeconfig.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\bin\Debug\netcoreapp3.1\Aula0508B.runtimeconfig.dev.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\bin\Debug\netcoreapp3.1\Aula0508B.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\bin\Debug\netcoreapp3.1\Aula0508B.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\obj\Debug\netcoreapp3.1\Aula0508B.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\obj\Debug\netcoreapp3.1\Aula0508B.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0508B\obj\Debug\netcoreapp3.1\Aula0508B.genruntimeconfig.cache

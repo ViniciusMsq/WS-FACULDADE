@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>...:::Esse é um teste:::...</title>
+<script> 
+  var repeat=1 // 0 para rolar uma vez, 1 para rolar infinitamente
+  var title=document.title
+  var leng=title.length
+  var start=27
+  function titlemove() 
+  {
+    titl=title.substring(start, leng) + title.substring(0, start)
+    document.title=titl
+    start--
+    if (start==0) 
+	{
+      start=27
+     
+        // aqui vc pode aumentar ou diminuir a velocidade 
+  } 
+  setTimeout("titlemove()",200)
+}
+  if (document.title)
+  titlemove()
+</script>
+<body>
+</body>
+</html>

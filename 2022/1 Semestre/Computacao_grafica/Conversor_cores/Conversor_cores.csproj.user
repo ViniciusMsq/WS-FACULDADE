@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_cmykxrgb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_hsvxrgb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_rgbxcmyk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_rgbxhsv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

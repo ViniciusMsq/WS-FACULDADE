@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+   <head>
+      <title> cadsatro de Clientes </title>
+	  <meta charset="utf-8">
+	  
+	  <script language="JavaScript">
+
+	  	
+
+	  	 function verificarIdade(form){
+
+	  	 	var data = new Date();
+
+	  	 	var dia     = data.getDate();           // 1-31
+	  	 	var mes     = data.getMonth() + 1;          // 0-11 (zero=janeiro)
+	  	 	var ano4    = data.getFullYear();       // 4 dígitos
+
+	  	 	var ano = ano4 - 18;
+
+	  	 	if(form.anoNascimento.value <= ano4 && form.mesNascimento.value <= mes && form.diaNascimento.value <= dia)
+	  	 	{
+	  	 		window.alert("Cliente maior de idade");
+	  	 	}
+	  	 	else{
+	  	 		window.alert("Cliente é menor de idade");
+	  	 	}
+
+	  	}
+		 function limpar(form)
+		 {
+		   form.codigo.value = "";
+		   form.nome.value = "";
+		   form.cpf.value = "";	
+		   form.rg.value = "";	
+		   form.endereco.value = "";		
+		   form.bairro.value = "";
+		   form.cidade.value="";	
+		   form.uf.value = "";	
+		   form.genero.value="";
+		   form.diaNascimento.value = "";	
+		   form.mesNascimento.value = "";
+		   form.anoNascimento.value = "";
+		   form.renda.value ="";	
+		   
+		 } // function limpar	  
+	  
+	  
+	  </script>
+	  
+   </head>
+   
+   
+
+<body>
+  <form>
+     <h1>Cadastro de Clientes</h1><br><br>
+	 <h3>Código:<input type="text" name="codigo" size="30"></h3><br>
+	 <h3>Nome:<input type="text" name="nome" size="70"></h3><br>	 
+	 <h3>CPF:<input type="text" name="cpf" size="40"></h3><br>
+	 <h3>RG:<input type="text" name="rg" size="40"></h3><br> 
+	 <h3>Endereço:<input type="text" name="endereco" size="70"></h3><br>	 
+	 <h3>Bairro:<input type="text" name="bairro" size="70"></h3><br>
+	 <h3>Cidade:<input type="text" name="cidade" size="70"></h3><br>
+	 <h3>UF:<input type="text" name="uf" size="70"></h3><br>	
+	 <h3>Gênero:<input type="text" name="genero" size="70"></h3><br>	
+	 <h3>Data de Nascimento: dia<input type="text" name="diaNascimento" size="4">
+	                         mês<input type="text" name="mesNascimento" size="4">
+							 ano<input type="text" name="anoNascimento" size="4">
+	 </h3><br>
+	 <h3>Renda:<input type="text" name="renda" size="70"></h3><br>	 
+	 
+     <input type="button" name="limpa" value="Limpa os campos" onClick="limpar(this.form)" ><br>
+     <input type="button" name="verificaIdade" value="Verificar Idade" onClick="verificarIdade(this.form)" ><br>
+     <br>
+     <br>
+     <input type="button" name="fechar" value="Sair" onclick="javascript:window.close();">
+  </form>
+
+</body>
+</html>

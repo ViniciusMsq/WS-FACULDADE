@@ -1,0 +1,38 @@
+ALTER PROCEDURE SP_ADD_NOTAS
+
+@COD_ALUNO INT,
+@COD_DISCIPLINA INT,
+@NOTA1 FLOAT,
+@NOTA2 FLOAT
+AS
+BEGIN
+DECLARE @MEDIA FLOAT;
+DECLARE @MEDIA_GERAL FLOAT;
+
+IF	EXISTS(SELECT * FROM DBO.alunos A WHERE A.cod_aluno = @COD_ALUNO) AND 
+	EXISTS(SELECT * FROM DBO.disciplinas D WHERE D.cod_disciplina = @COD_DISCIPLINA)
+		BEGIN
+			IF NOT EXISTS(SELECT * FROM DBO.notas N WHERE N.cod_aluno = @COD_ALUNO AND N.cod_disciplina = @COD_DISCIPLINA)
+				BEGIN
+					SET @MEDIA = (@NOTA1+@NOTA2)/2;
+					INSERT INTO	DBO.notas(cod_aluno, cod_disciplina, nota1, nota2 ,media) 
+								  VALUES (@COD_ALUNO, @COD_DISCIPLINA, @NOTA1, @NOTA2, @MEDIA)
+					
+					SET @MEDIA_GERAL = 	(SELECT AVG(N.media) 
+											FROM DBO.notas N
+											WHERE N.cod_aluno = @COD_ALUNO)
+
+					UPDATE DBO.alunos
+						SET media_geral = @MEDIA_GERAL
+						WHERE cod_aluno = @COD_ALUNO
+				END;
+			ELSE
+				BEGIN
+					SELECT 'JA EXISTE NOTAS DO ALUNO PARA ESSA DISCIPLINA' ERRO
+				END;
+		END;
+ELSE
+		BEGIN
+			SELECT 'NÃO EXISTE CODIGO ALUNO OU DISCIPLINA' ERRO
+		END;
+END;

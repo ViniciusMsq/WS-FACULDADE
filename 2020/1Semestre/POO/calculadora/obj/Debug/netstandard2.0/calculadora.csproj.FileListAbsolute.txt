@@ -1,0 +1,9 @@
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\calculadora\bin\Debug\netstandard2.0\calculadora.deps.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\calculadora\bin\Debug\netstandard2.0\calculadora.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\calculadora\bin\Debug\netstandard2.0\calculadora.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\calculadora\obj\Debug\netstandard2.0\calculadora.csprojAssemblyReference.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\calculadora\obj\Debug\netstandard2.0\calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\calculadora\obj\Debug\netstandard2.0\calculadora.AssemblyInfoInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\calculadora\obj\Debug\netstandard2.0\calculadora.AssemblyInfo.cs
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\calculadora\obj\Debug\netstandard2.0\calculadora.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\calculadora\obj\Debug\netstandard2.0\calculadora.pdb

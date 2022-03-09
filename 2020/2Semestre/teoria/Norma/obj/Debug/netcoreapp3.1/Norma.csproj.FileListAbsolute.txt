@@ -1,0 +1,13 @@
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\bin\Debug\netcoreapp3.1\Norma.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\bin\Debug\netcoreapp3.1\Norma.deps.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\bin\Debug\netcoreapp3.1\Norma.runtimeconfig.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\bin\Debug\netcoreapp3.1\Norma.runtimeconfig.dev.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\bin\Debug\netcoreapp3.1\Norma.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\bin\Debug\netcoreapp3.1\Norma.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\obj\Debug\netcoreapp3.1\Norma.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\obj\Debug\netcoreapp3.1\Norma.AssemblyInfoInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\obj\Debug\netcoreapp3.1\Norma.AssemblyInfo.cs
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\obj\Debug\netcoreapp3.1\Norma.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\obj\Debug\netcoreapp3.1\Norma.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\obj\Debug\netcoreapp3.1\Norma.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\teoria\Norma\obj\Debug\netcoreapp3.1\Norma.genruntimeconfig.cache

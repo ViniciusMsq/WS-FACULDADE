@@ -1,0 +1,9 @@
+C:\Users\Vinic\OneDrive\jogo da velha\bin\Debug\jogo da velha.exe.config
+C:\Users\Vinic\OneDrive\jogo da velha\bin\Debug\jogo da velha.exe
+C:\Users\Vinic\OneDrive\jogo da velha\bin\Debug\jogo da velha.pdb
+C:\Users\Vinic\OneDrive\jogo da velha\obj\Debug\jogo da velha.csprojAssemblyReference.cache
+C:\Users\Vinic\OneDrive\jogo da velha\obj\Debug\jogo_da_velha.Form1.resources
+C:\Users\Vinic\OneDrive\jogo da velha\obj\Debug\jogo_da_velha.Properties.Resources.resources
+C:\Users\Vinic\OneDrive\jogo da velha\obj\Debug\jogo da velha.csproj.GenerateResource.cache
+C:\Users\Vinic\OneDrive\jogo da velha\obj\Debug\jogo da velha.exe
+C:\Users\Vinic\OneDrive\jogo da velha\obj\Debug\jogo da velha.pdb

@@ -1,0 +1,22 @@
+ICC - 21/03/2019
+
+Questões:
+
+	1- Quais são os niveis de sistemas em uma organização?
+		- Nivel Estrategico, Gerencial, conhecimento e operacional
+
+	2- Quais são as estruturas de TI mais Importantes?
+		- Hardware, Software, tecnologia
+	3- Quais os sub-sistemas para o apoio de tomada de decisão e gerencial?
+	4- O que é um sistema SPT?
+	5- O que é um sistema SSD?
+	6- Explique os 5 desafios para os sistemas de TI?
+	7- Explique os Sistemas:
+		a)ERP;
+		b)SIG;
+		c)SAD;
+		d)WorkFlow;
+		e)CRM;
+		f)Data Mining;
+		g)E-commerce
+		h)SIT.

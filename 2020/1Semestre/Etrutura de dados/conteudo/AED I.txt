@@ -1,0 +1,14 @@
+Assunto: Atividade Compensatória das aulas da semana de 16 a 20 de março de 2020
+
+Prezados, bom dia !
+
+Implementar o método da inserção direta em C++ em uma função, o no programa principal (main), crie um vetor
+de números do tipo float de 1000 posições. Peça ao usuário que informe uma quantidade indeterminada e menor que 1000 de números, 
+para armazenar no vetor, e ordene esse vetor utilizando o método da inserção direta.
+
+O prazo para envio é até dia 28/03/2020 
+
+Att.
+
+Prof. Dr. André Mendes
+UniFAI

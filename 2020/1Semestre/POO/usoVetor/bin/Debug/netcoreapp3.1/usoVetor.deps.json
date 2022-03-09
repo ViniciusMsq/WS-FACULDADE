@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "usoVetor/1.0.0": {
+        "dependencies": {
+          "LibVetor": "1.0.0"
+        },
+        "runtime": {
+          "usoVetor.dll": {}
+        }
+      },
+      "LibVetor/1.0.0": {
+        "runtime": {
+          "LibVetor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "usoVetor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibVetor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Aodk2HkM4bzE9BMjdMGyESv/N/DtiA2LIiPy4icU6rBl3ZIV8S8a6MRD+JGY3fqLg/pB6kg3RScpY7b5SUYCSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vinic\\Google Drive (9319@fai.com.br)\\2020\\POO\\calculadora\\calculadora.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

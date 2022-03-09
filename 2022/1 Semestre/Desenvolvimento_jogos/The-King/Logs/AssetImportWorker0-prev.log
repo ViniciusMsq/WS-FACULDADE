@@ -1,0 +1,344 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 8101 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/WS/ws-game/The-King
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50831
+Successfully changed project path to: C:/WS/ws-game/The-King
+C:/WS/ws-game/The-King
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/WS/ws-game/The-King/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     4050 MB
+    Driver:   27.20.100.8729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001876 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (187ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003161 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1199ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2626.
+Total: 4.812400 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.141100 ms MarkObjects: 4.208800 ms  DeleteObjects: 0.188800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2DGame/Player/Frames/Idle/boy_idle06.png
+  artifactKey: Guid(413ed29bee32d9b4b8695ab24865872a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Idle/boy_idle06.png using Guid(413ed29bee32d9b4b8695ab24865872a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068e644fd88b0d7543da183f26c44f0c') in 0.129210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/2DGame/Player/Frames/Idle/boy_idle04.png
+  artifactKey: Guid(251df25e74a09304b838498b458820ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Idle/boy_idle04.png using Guid(251df25e74a09304b838498b458820ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459a569cb5025dc3074b96b5fcc62127') in 0.024519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2DGame/Player/Frames/Idle/boy_idle00.png
+  artifactKey: Guid(f8343ea9367ef3b44b27589ace40ea27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Idle/boy_idle00.png using Guid(f8343ea9367ef3b44b27589ace40ea27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335590cd8a2e3ef30c9ba6129e684959') in 0.024898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/2DGame/Player/Frames/Run/boy_run00.png
+  artifactKey: Guid(3e620d347f2706d489dcabfaafec4104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Run/boy_run00.png using Guid(3e620d347f2706d489dcabfaafec4104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9903f7d7b58f9470488495c5f7c35123') in 0.030082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/2DGame/Player/Frames/Idle/boy_idle03.png
+  artifactKey: Guid(2ce9bb30014e7a742bfe12d6a1a24ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Idle/boy_idle03.png using Guid(2ce9bb30014e7a742bfe12d6a1a24ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0450fab21f33852b7f9aab1c48060685') in 0.023064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/2DGame/Player/Frames/Run/boy_run06.png
+  artifactKey: Guid(e8b82a837e8e2b84ea96b02599c92b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Run/boy_run06.png using Guid(e8b82a837e8e2b84ea96b02599c92b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612c2c23aca580198adcd983b62868a4') in 0.030244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/2DGame/Player/Frames/Idle/boy_idle07.png
+  artifactKey: Guid(94bc8ce38cdec684d9975310c06babe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Idle/boy_idle07.png using Guid(94bc8ce38cdec684d9975310c06babe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557cac6c0ac0155eacfd113588a910a3') in 0.022305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2DGame/Player/Frames/Run/boy_run03.png
+  artifactKey: Guid(e1432606a483cc946839e9ddc9ec8237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Run/boy_run03.png using Guid(e1432606a483cc946839e9ddc9ec8237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabf8bcfeca0943abbc7314aaef385a7') in 0.028568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/2DGame/Player/Frames/Idle/boy_idle05.png
+  artifactKey: Guid(08d07e046a067b24eaf50d2ed3ab4ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Idle/boy_idle05.png using Guid(08d07e046a067b24eaf50d2ed3ab4ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b9a14d19c451b871e83f6cc20810f4') in 0.023713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/2DGame/Player/Frames/Run/boy_run01.png
+  artifactKey: Guid(94dfe96881875e64d907b5a7aa4ea266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Run/boy_run01.png using Guid(94dfe96881875e64d907b5a7aa4ea266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d5acd28e2306bc06b4d7d657b2c685') in 0.020414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/2DGame/Player/Frames/Run/boy_run05.png
+  artifactKey: Guid(5f5fb739d0387fe42ae685213d6f5de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Run/boy_run05.png using Guid(5f5fb739d0387fe42ae685213d6f5de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0b32f71caa4d6fa5e68f9511052206') in 0.018394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/2DGame/Player/Frames/Idle/boy_idle01.png
+  artifactKey: Guid(473b2d43ec63df74c81e4ffe42c1ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Idle/boy_idle01.png using Guid(473b2d43ec63df74c81e4ffe42c1ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798557bbc970b3c1a8b1546ade30d3e7') in 0.019860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/2DGame/Player/Frames/Run/boy_run02.png
+  artifactKey: Guid(86a1ab4c322e79b4ca78531b36bf32f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Run/boy_run02.png using Guid(86a1ab4c322e79b4ca78531b36bf32f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5aaf0532ba2ef60a390f1cf79cf935') in 0.020688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/2DGame/Player/Frames/Run/boy_run07.png
+  artifactKey: Guid(1ecfd3abcac6699489430da5ecfa9733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Run/boy_run07.png using Guid(1ecfd3abcac6699489430da5ecfa9733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3ad7ce32c9a452a909167a61ef9634') in 0.020539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/2DGame/Player/Frames/Idle/boy_idle02.png
+  artifactKey: Guid(5466dc9dc9fba664caf1109da05537af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Idle/boy_idle02.png using Guid(5466dc9dc9fba664caf1109da05537af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1ade4cfde39b386e53ccc90202fe73') in 0.018099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/2DGame/Player/Frames/Run/boy_run04.png
+  artifactKey: Guid(f2577eedda3db5346af561dfe7bcb663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGame/Player/Frames/Run/boy_run04.png using Guid(f2577eedda3db5346af561dfe7bcb663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2aae7bdd22a189b6ebc42acde973d24') in 0.022500 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (886ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2636.
+Total: 3.716200 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.091600 ms MarkObjects: 3.292500 ms  DeleteObjects: 0.126400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1168ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (985ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 3.562800 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.076400 ms MarkObjects: 3.167000 ms  DeleteObjects: 0.125500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

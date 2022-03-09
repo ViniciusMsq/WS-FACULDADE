@@ -1,0 +1,11 @@
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\bin\Debug\netcoreapp3.1\projetoInterface.exe
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\bin\Debug\netcoreapp3.1\projetoInterface.deps.json
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\bin\Debug\netcoreapp3.1\projetoInterface.runtimeconfig.json
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\bin\Debug\netcoreapp3.1\projetoInterface.runtimeconfig.dev.json
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\bin\Debug\netcoreapp3.1\projetoInterface.dll
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\bin\Debug\netcoreapp3.1\projetoInterface.pdb
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\obj\Debug\netcoreapp3.1\projetoInterface.csprojAssemblyReference.cache
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\obj\Debug\netcoreapp3.1\projetoInterface.AssemblyInfoInputs.cache
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\obj\Debug\netcoreapp3.1\projetoInterface.AssemblyInfo.cs
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\obj\Debug\netcoreapp3.1\projetoInterface.dll
+C:\Users\UniFAI\Desktop\projetoInterface\projetoInterface\obj\Debug\netcoreapp3.1\projetoInterface.pdb

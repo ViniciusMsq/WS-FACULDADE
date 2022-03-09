@@ -1,0 +1,9 @@
+C:\Users\Vinic\OneDrive\teste_ranking\bin\Debug\teste_ranking.exe.config
+C:\Users\Vinic\OneDrive\teste_ranking\bin\Debug\teste_ranking.exe
+C:\Users\Vinic\OneDrive\teste_ranking\bin\Debug\teste_ranking.pdb
+C:\Users\Vinic\OneDrive\teste_ranking\obj\Debug\teste_ranking.csprojAssemblyReference.cache
+C:\Users\Vinic\OneDrive\teste_ranking\obj\Debug\teste_ranking.Form1.resources
+C:\Users\Vinic\OneDrive\teste_ranking\obj\Debug\teste_ranking.Properties.Resources.resources
+C:\Users\Vinic\OneDrive\teste_ranking\obj\Debug\teste_ranking.csproj.GenerateResource.cache
+C:\Users\Vinic\OneDrive\teste_ranking\obj\Debug\teste_ranking.exe
+C:\Users\Vinic\OneDrive\teste_ranking\obj\Debug\teste_ranking.pdb

@@ -1,0 +1,17 @@
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\LibVetor\bin\Debug\netstandard2.0\LibVetor.deps.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\LibVetor\bin\Debug\netstandard2.0\LibVetor.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\LibVetor\bin\Debug\netstandard2.0\LibVetor.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.csprojAssemblyReference.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.AssemblyInfoInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.AssemblyInfo.cs
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.pdb
+C:\Users\Vinic\DriveFai\2020\POO\LibVetor\bin\Debug\netstandard2.0\LibVetor.deps.json
+C:\Users\Vinic\DriveFai\2020\POO\LibVetor\bin\Debug\netstandard2.0\LibVetor.dll
+C:\Users\Vinic\DriveFai\2020\POO\LibVetor\bin\Debug\netstandard2.0\LibVetor.pdb
+C:\Users\Vinic\DriveFai\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.AssemblyInfoInputs.cache
+C:\Users\Vinic\DriveFai\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.AssemblyInfo.cs
+C:\Users\Vinic\DriveFai\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.dll
+C:\Users\Vinic\DriveFai\2020\POO\LibVetor\obj\Debug\netstandard2.0\LibVetor.pdb

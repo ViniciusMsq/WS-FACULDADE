@@ -1,0 +1,13 @@
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\bin\Debug\netcoreapp3.1\Aula0308.exe
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\bin\Debug\netcoreapp3.1\Aula0308.deps.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\bin\Debug\netcoreapp3.1\Aula0308.runtimeconfig.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\bin\Debug\netcoreapp3.1\Aula0308.runtimeconfig.dev.json
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\bin\Debug\netcoreapp3.1\Aula0308.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\bin\Debug\netcoreapp3.1\Aula0308.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\obj\Debug\netcoreapp3.1\Aula0308.csprojAssemblyReference.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\obj\Debug\netcoreapp3.1\Aula0308.AssemblyInfoInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\obj\Debug\netcoreapp3.1\Aula0308.AssemblyInfo.cs
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\obj\Debug\netcoreapp3.1\Aula0308.csproj.CoreCompileInputs.cache
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\obj\Debug\netcoreapp3.1\Aula0308.dll
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\obj\Debug\netcoreapp3.1\Aula0308.pdb
+C:\Users\Vinic\DriveFai\2020\2Semestre\POO2\Aula0308\obj\Debug\netcoreapp3.1\Aula0308.genruntimeconfig.cache

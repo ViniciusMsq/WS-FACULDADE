@@ -1,0 +1,110 @@
+APW II - 10/10/2019.
+
+
+1) Abrir o Vertrigo --> phpMyAdmin (padrão)
+
+usuário: root
+
+senha: vertrigo
+
+2) Criar um Banco de Dados (BD) loja em SQL (Structured Query 
+Language):
+
+create database nomeBD;
+
+exemplo: 
+
+create database loja;
+
+3) Usar BD loja:
+
+use nomeBD;
+
+exemplo:
+
+use loja;
+
+4) Criar uma tabela chamda clientes:
+
+create table nomeTabela( campo1 tipo, campo2 tipo, ...);
+
+exemplo:
+
+create table clientes(codigoCli int primary key,
+                      RGCli varchar(12),
+                      CPFCli varchar(14),
+                      nomeCli varchar(70),
+                      enderecoCli varchar(60),
+                      bairroCli varchar(60),
+                      cidadeCli varchar(60),
+                      ufCli varchar(2),
+                      generoCli varchar(1),
+                      dataNascimentoCli date,
+                      rendaCli decimal(10,2)
+                      );
+
+5) Inserir dados na Tabela clientes:
+
+insert into clientes values (1,
+                             "44.103587-X",
+                             "123.456.789-12",
+                             "José da Silva",
+                             "Rua santo Antônio, 256",
+                             "centro",
+                             "Adamantina",
+                             "SP",
+                             "M",
+                             "2000-03-20",
+                             4532.38
+                            );
+
+insert into clientes values (2,
+                             "20.167.521-2",
+                             "111.222.333-90",
+                             "Maria Alcantara",
+                             "Av. Internacional, 1002",
+                             "centro",
+                             "Lucélia",
+                             "SP",
+                             "F",
+                             "1989-01-31",
+                             6390.00
+                            );
+
+insert into clientes values (3,
+                             "34.100.500-8",
+                             "090.070.070-70",
+                             "Carla Machado",
+                             "Al. 2 de abril, 375",
+                             "Vila Cicma",
+                             "Adamantina",
+                             "SP",
+                             "F",
+                             "1993-12-10",
+                             3375.93
+                            );
+
+6) Criar a tabela produtos:
+
+create table produtos(codigoProd int primary key,
+                      descricao varchar(100),
+                      precoProd decimal(10,2),
+                      dataValidadeProd date,
+                      estoqueProd int 
+                      );
+
+7) Incluir dados na Tabela de produtos:
+
+insert into produtos values(1,
+                            "chocalate",
+                            6.50,
+                            "2019-12-25",
+                            500
+                           );
+
+insert into produtos values(2,
+                            "salgadinho",
+                            2.50,
+                            "2020-01-07",
+                            300
+                           );

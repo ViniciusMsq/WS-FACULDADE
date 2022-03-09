@@ -1,0 +1,15 @@
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\bin\Debug\netcoreapp3.1\Matriz.exe
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\bin\Debug\netcoreapp3.1\Matriz.deps.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\bin\Debug\netcoreapp3.1\Matriz.runtimeconfig.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\bin\Debug\netcoreapp3.1\Matriz.runtimeconfig.dev.json
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\bin\Debug\netcoreapp3.1\Matriz.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\bin\Debug\netcoreapp3.1\Matriz.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\obj\Debug\netcoreapp3.1\Matriz.csprojAssemblyReference.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\obj\Debug\netcoreapp3.1\Matriz.AssemblyInfoInputs.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\obj\Debug\netcoreapp3.1\Matriz.AssemblyInfo.cs
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\obj\Debug\netcoreapp3.1\Matriz.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\obj\Debug\netcoreapp3.1\Matriz.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\obj\Debug\netcoreapp3.1\Matriz.genruntimeconfig.cache
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\bin\Debug\netcoreapp3.1\FuncMatriz.dll
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\bin\Debug\netcoreapp3.1\FuncMatriz.pdb
+C:\Users\Vinic\Google Drive (9319@fai.com.br)\2020\POO\Matriz\obj\Debug\netcoreapp3.1\Matriz.csproj.CopyComplete

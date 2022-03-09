@@ -1,0 +1,13 @@
+{
+    "cSpell.enableFiletypes": [
+        "!plaintext"
+    ],
+    "cSpell.enabled": false,
+    
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.html": "html",
+        "*.cs": "csharp",
+        "iostream": "cpp"
+    }
+}

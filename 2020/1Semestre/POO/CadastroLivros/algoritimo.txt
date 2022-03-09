@@ -1,0 +1,63 @@
+Considere as Classes:
+
+//Classe que contem informações do Livro
+- Livro{
+    - atributos: NroTombo(isbn), Titulo, Autor (somente um), status, genero;
+    - metodos:  
+        //Metodo construtor
+        public Livro(isbn, Titulo, Autor, status, genero){
+            
+        }
+
+        //metodos para carregar e salvar inf. nos atributos
+        public Getters e Setters dos atributos{
+
+        }
+}
+
+//Classe Interface Livros que vai reliazar ação
+- ILivro{
+    - metodos:
+        //Metodo que cuida do cadastro dos livros
+        public Livro CadLivros(){
+            
+        }
+
+        //Metodo para pesquisar e exibir um livro pelo numero do tombo
+        public void ConsTombo(Livro[] vLivros, int indice, int numTombo){
+
+        }
+
+        //Metodo que exibe todos os livros do genero pesquisado
+        public void ConsGenero(Livro[] vLivros, int indice string genero){
+
+        }
+
+        //Metodo que faz o lançamento de emprestimo para livros disponiveis
+        public void Emprestimo(Livro[] vLivros, int indice, int numTombo){
+
+        }
+        
+        //Metodo para repor a disponibilidade de um livro emprestado
+        public void Disponivel(Livro[] vLivros, int indice, numTombo){
+
+        }
+}
+
+//Classe que vai exbir a opções do menu
+-IMenu{
+    -metodos:
+        //Metodo com função de exibir o menu e receber sua opção
+        public int Menu(){
+            
+        }
+        //Metodo que pergunta e retorna o numero do tombo
+        public int NumeroTombo(){
+
+        }
+        //Metodo que pergunta e retorna o genero
+        public string Genero(){
+
+        }
+}
+

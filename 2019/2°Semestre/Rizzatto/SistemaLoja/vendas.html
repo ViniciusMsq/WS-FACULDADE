@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+   <head>
+      <title> Cadastro de Vendas </title>
+	  <meta charset="utf-8">
+	  
+	  <script language="JavaScript">
+	  
+		 function limpar(form)
+		 {
+		   form.codigo.value = "";
+		   form.nome.value = "";
+		   form.cpf.value = "";	
+		   form.rg.value = "";	
+		   form.endereco.value = "";		
+		   form.bairro.value = "";	
+		   form.cidade.value = "";		   
+		   form.uf.value = "";	
+		   form.genero.value = "";		   
+		   form.diaNascimento.value = "";	
+		   form.mesNascimento.value = "";
+		   form.anoNascimento.value = "";	
+		   form.renda.value = "";		   
+		 } // function limpar	
+
+ 
+	  </script>
+	  
+   </head>
+   
+   
+
+<body>
+  <form>
+     <h1>Cadastro de Vendas</h1><br><br>
+	 <h3>Código ou Nota Fiscal:<input type="text" name="codigoV" size="30"></h3><br>
+	 <h3>Código do Produto:<input type="text" name="codigoPV" size="70"></h3><br>	 
+	 <h3>Código do Cliente:<input type="text" name="codigoCV" size="40"></h3><br>
+	 <h3>Data da Venda:<input type="text" name="dataVenda" size="40"></h3><br> 
+	 <h3>Hora da Venda:<input type="text" name="HoraVenda" size="70"></h3><br>	 
+	 <h3>Quantidade Vendida:<input type="text" name="quantidadeVendida" size="70"></h3><br>
+	 <h3>Valor da Venda:<input type="text" name="valorVenda" size="70"></h3><br>
+
+     <input type="button" name="limpa" value="Limpa os campos" onClick="limpar(this.form)" > &nbsp &nbsp &nbsp
+     <input type="button" name="fechar" value="Fechar" onClick="javascript:window.close()" ><br><br>	 
+	 
+  </form>
+
+</body>
+</html>

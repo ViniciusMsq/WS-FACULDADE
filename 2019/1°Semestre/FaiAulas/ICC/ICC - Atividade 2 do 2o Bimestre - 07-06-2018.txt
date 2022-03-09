@@ -1,0 +1,29 @@
+  UNIFAI - Centro Universitário de Adamantina
+  Ciência da Computação  /  Tecnologia em Análise e Desenvolvimento de Sistemas
+  Prof. Márcio R. Rizzatto
+  Aluno(a):_____________________________________-Matr.:____/__.
+
+  Introdução a Ciência da Computação / Introdução a Computação e Sistemas de Informação
+
+  Atividade 2 do 2º Bimestre
+  --------- - -- -- --------
+
+  1) Definição de Sistemas Embarcados.
+
+  2) Como é feito o trabalho de Sistemas Embarcados.
+
+  3) Como é composto um sistema Sistema Embarcado.
+
+  4) Cite exemplos de aplicação de Sistemas Embarcados, definindo-os.
+
+  5) Quais são os fatores importantes que ajudam a classificar um sistema como embarcado?
+
+  6) Definição de Sistemas de Informção.
+
+  7) Quais são os níveis dos Sistemas de Informação, explique-os?
+
+  8) Quais são as Classificações de Sistemas mais conhecidas?
+
+  9) Quais são os 5 (cinco) principais desafios para os Sistemas de Informação?
+
+  10) Quais são as tecnologias de Sistemas de Informação que fazem o uso de grandes bases de dados e tornam estes dados palpáveis pelos administradores de negócios, atualmente?

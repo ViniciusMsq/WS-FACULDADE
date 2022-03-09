@@ -1,0 +1,50 @@
+														VINICIUS MESQUINI 0093/19
+
+ICC - Questões de revisão - 2º bimestre
+
+
+1) Quais são os níveis de informação, descreva-os.
+	Resposta: Nivel Estratégico, Nivel Gerencial, Nivel de Conhecimento e Nivel Operacional.
+
+2) Desafios dos sistemas, descreva-os.
+	Resposta: - O Desafio dos Negócios Estratégicos?(repensar maneiras de projetar, produzir e vender, simplificar e eliminar trabalho).
+		  - O Desafio da Globalização?(desenvolver sistemas multinacionais integrados).
+		  - O Desafio da Arquitetura de Informação?(conhecer objetivos, e eliminar problemas com sistemas obsoletos e isolados).
+		  - O Desafio do Investimento em Sistemas de Informação?(usar a TI como ponto estregico, para maiores lucros).
+		  - O Desafio do Controle e da Responsabilidade?(sistemas seguros, que garanta alem do bom uso, a integridade, confidencialidade e disponibiliade).
+		
+
+3) definição de SI. Descrever a informação quanto a sua taxonomia. Tipos de SI com definição de cada um (pelo menos 3).
+	Resposta: -Sistema da informação é uma coleção de unidades funcionais que interagem entre si, trocando informaçoes.
+		 
+-Taxonomia da Iformação:
+		  Descritiva:
+			Especificável:Formatada(dados, registros),Semi-Formatada(regras, XML, partituras), não formatada(textos, imagens)
+			Informativa:(catalogos, esquemas, dados, estatisticas)
+
+		  Imperativa: (Transações, programas, instruções, regras de produção)
+
+-Tipos SI:
+		-Sistema de Informação Gerencial (MIS)
+		    Produz informação correta, no local correto e hora certa
+			  (relatorios gerenciais)
+				Tecnologia: Data Warehousing
+		-Sitema de suporte a decisão(DSS)
+		    Trata de problemas pouco estruturados de natureza estratégica ou tática.
+			(Assistencia imediata na solução de problemas)
+		-Sistema de Informação Executiva(EIS)
+		    É um DSS que provê: Visões alternativas dos dados, integração de dados externos, estatiscas
+			Tecnologia: Processamento analitico(OLAP)	 		
+
+		 
+4) Em TI, quais são as estratégicas básicas. Exemplifique.
+	Resposta: Estratégia de: Liderança de custo, Diferenciação, Inovação, Crescimento e Aliança.
+
+5) Quanto a Reengenharia de Negócios faça a diferenciação quanto a Melhoria Empresarial e Reengenharia Empresarial conforme o quadro da transparência 12 da Parte 5.
+	Resposta: A melhoria Empresarial, traz mudanças mais leves, mudanças que trazem ganhos evolutivos, mas sem muitos riscos aplicadas em 		qualquer processo, mantendo a mesma estrutura de trabalho; Já a Reengenharia Empresarial, Traz mudanças mais pesadas, e de risco mais elevado, aplicadas no setor estrategico, mas contendo melhorias e ganhos visivelmente maiores, enquanto ao mesmo tempo modifica e reestrutura a forma de trabalho.
+
+Entregar até um dias antes da Avaliação:
+
+e-mail : rizzatto@fai.com.br
+assunto: ICC - Revisão do 2º Bimestre - O Seu Nome
+

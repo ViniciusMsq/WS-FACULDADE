@@ -1,0 +1,16 @@
+/* CSS Document */
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	size:11px;	
+}
+
+h3 {
+	border-bottom:#000 double; 
+}
+
+form {
+	background-color:#CCCCCC;
+	line-height:23px;
+	padding:5px;
+}

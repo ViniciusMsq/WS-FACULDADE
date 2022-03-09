@@ -1,0 +1,23 @@
+Considere as Classes:
+
+//Classe que contem informações do Livro
+- Livro ()
+    *- atributos: NroTombo(isbn), Titulo, Autor (somente um), status, genero;
+    - metodos:  
+        Livro(isbn, Titulo, Autor, status, genero); 
+        Getters e Setters dos atributos;
+
+//Interface que vai reliazar ação 
+
+- ILivro (interface Livro) - identificar e codificar as classes com seus respectivos atributos e métodos - esta classe se assemelha à classe IMenu desenvolvida em aula
+
+- IMenu (interface Menu) - interface semelhante à classe desenvolvida em aula
+
+O menu deve apresentar as opções:
+1) Cadastro do Livro
+2) Consulta Livro por NroTombo (deve ser digitado o nro do tombo e mostrar os dados do livro se estiver cadastrado ou mensagem de erro de não localizado)
+3) Consulta por Gênero - (deve ser digitado o genero e listar os livros com o mesmo gênero digitado no vetor de Livros)
+4) Lançar o Empréstimo do Livro (para o livro estar cadastrado (nroTombo) e o status deve estar D-disponível) - informar o tombo e validar a existencia e o status
+- se ok, Mostrar dados do Livro e confirmar o empréstimo alterando o status para "E"
+5) Lançar a Devolução do Livro - semelhante ao item anterior, porém com o tratamento para devolução
+6) Finalizar

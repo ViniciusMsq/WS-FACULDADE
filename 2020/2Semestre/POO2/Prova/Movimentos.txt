@@ -1,0 +1,17 @@
+147;Realizou um Depósito no valor de: R$ 1000
+147;Realizou um Depósito no valor de: R$ 1000
+147;Pagou a fatura: Luz no valor de: R$ 850,5
+963;Realizou um Depósito no valor de: R$ 20
+258;Realizou um Depósito no valor de: R$ 20000
+258;Pagou a fatura: CARRO no valor de: R$ 19000
+856;Realizou um Depósito no valor de: R$ 2552
+856;Pagou a fatura: Luz no valor de: R$ 2052
+856;Realizou um Depósito no valor de: R$ 200
+856;Pagou a fatura: luz no valor de: R$ 200
+856;Realizou um Depósito no valor de: R$ 200
+856;Pagou a fatura: agua no valor de: R$ 200
+856;Realizou um Depósito no valor de: R$ 200
+147;Realizou um Depósito no valor de: R$ 200
+147;Realizou um Depósito no valor de: R$ 200000
+147;Pagou a fatura: bebida no valor de: R$ 10000
+147;Pagou a fatura: luz no valor de: R$ 5000
