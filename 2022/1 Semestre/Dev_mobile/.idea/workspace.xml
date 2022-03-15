@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ee21866-82a0-4596-9ec0-21b0fedd39bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../2021/1Semestre/Processamento_Imagem/Repositorio/PDI" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021/1Semestre/Processamento_Imagem/Repositorio/PDI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Attack_boy.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Attack_boy.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Dash_boy.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Dash_boy.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Die_boy.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Die_boy.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Jump_boy.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Jump_boy.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Run_boy.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Run_boy.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Skin.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/Skin.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/idle_boy.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Animation/idle_boy.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/Artifacts/34/34424801e2cb59f327c8a9ab1fe4e351" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/Artifacts/4f/4fcc277c88f1bfecc02cb17305b7af7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/Artifacts/83/836fb9491e13159535f9ea35b98340ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/Artifacts/c4/c4b7f0864a62f228516d7c758aa7fae0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/Artifacts/e3/e3702f59a9f7d8ae88cf1441a58e7542" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/Artifacts/ec/ec87110e171cf87e9f00962025824524" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/Artifacts/fd/fd077515770f6d289ce02d9d1a14175c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/PackageManager/ProjectCache" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/PackageManager/ProjectCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/PackageManager/ProjectCache.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/PackageManager/ProjectCache.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/StateCache/SceneView/0a/0a6891df64353e9a18d56dd74766fe94.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/StateCache/SceneView/0a/0a6891df64353e9a18d56dd74766fe94.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Desenvolvimento_jogos/The-King/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/projeto01/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projeto01/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/projeto01/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="26QVzFnyk3S9wDWGIjuPloPfaeQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Jogo-Adivinha" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ee21866-82a0-4596-9ec0-21b0fedd39bf" name="Default Changelist" comment="" />
+      <created>1647356060725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647356060725</updated>
+    </task>
+    <servers />
+  </component>
+</project>
