@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
             txtTexto.setText("valor: " + Vrandom);
             Toast.makeText(this, "Valor Correto, Parabéns!", Toast.LENGTH_SHORT).show();
             btnOk.setEnabled(false);
+            edtChute.setEnabled(false);
             btnNewGame.setEnabled(true);
             btnNewGame.requestFocus();
         }
@@ -77,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
         edtChute.setText("");
         txtTexto.setText("Começou chute um valor");
         btnOk.setEnabled(true);
+        edtChute.setEnabled(true);
         btnNewGame.setEnabled(false);
         Contador = 0;
         txtContagem.setText("0");

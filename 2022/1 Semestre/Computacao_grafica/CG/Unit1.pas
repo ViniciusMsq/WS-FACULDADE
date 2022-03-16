@@ -25,12 +25,18 @@ type
     edtY1: TEdit;
     edtX2: TEdit;
     edtY2: TEdit;
+    btnBrs: TBitBtn;
+    btnbrsgeral: TBitBtn;
+    btnbrsint: TBitBtn;
     procedure img1MouseMove(Sender: TObject; Shift: TShiftState; X,
       Y: Integer);
     procedure img1MouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
     procedure BitBtn1Click(Sender: TObject);
     procedure BitBtn2Click(Sender: TObject);
+    procedure btnBrsClick(Sender: TObject);
+    procedure btnbrsintClick(Sender: TObject);
+    procedure btnbrsgeralClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -106,5 +112,122 @@ begin
   end;
 
 end;
+
+procedure TForm1.btnBrsClick(Sender: TObject);
+var i, x1, y1, x2, y2, dx, dy : integer; x, y, e, m : double;
+begin
+  x1:= strToInt(edtX1.Text);
+  y1:= strToInt(edtY1.Text);
+  x2:= strToInt(edtX2.Text);
+  y2:= strToInt(edtY2.Text);
+
+  x := x1;
+  y := y1;
+
+  dx := x2 - x1;
+  dy := y2 - y1;
+
+  m := dy / dx;
+
+  e := m - 0.5;
+
+  for i := 1 to dx do
+  begin
+     imgBranco.Canvas.Pixels[trunc(x), trunc(y)] := RGB(0,0,0);
+     while e > 0 do
+     begin
+      y := y + 1;
+      e := e - 1;
+     end;
+     x := x + 1;
+     e := e + m;
+  end;
+
+end;
+
+procedure TForm1.btnbrsintClick(Sender: TObject);
+var i, x1, y1, x2, y2, dx, dy : integer; x, y, e : double;
+begin
+  x1:= strToInt(edtX1.Text);
+  y1:= strToInt(edtY1.Text);
+  x2:= strToInt(edtX2.Text);
+  y2:= strToInt(edtY2.Text);
+
+  x := x1;
+  y := y1;
+
+  dx := x2 - x1;
+  dy := y2 - y1;
+
+  e := 2 * dy - dx;
+
+  for i := 1 to dx do
+  begin
+     imgBranco.Canvas.Pixels[trunc(x), trunc(y)] := RGB(0,0,0);
+     while e > 0 do
+     begin
+      y := y + 1;
+      e := e - 2 * dx;
+     end;
+     x := x + 1;
+     e := e + 2 * dy;
+  end;
+
+end;
+
+procedure TForm1.btnbrsgeralClick(Sender: TObject);
+var Temp,dx, dy, x1, y1, x2, y2, i : integer; x, y, m, s1, s2, Interchange, e : double;
+begin
+  x1:= strToInt(edtX1.Text);
+  y1:= strToInt(edtY1.Text);
+  x2:= strToInt(edtX2.Text);
+  y2:= strToInt(edtY2.Text);
+
+  x := x1;
+  y := y1;
+
+  dx := abs(x2 - x1);
+  dy := abs(y2 - y1);
+
+  s1 := Sign(x2 - x1);
+  s2 := Sign(y2 - y1);
+
+  if(dy > dx) then
+    begin
+      Temp := dx;
+      dx := dy;
+      dy := Temp;
+      Interchange := 1
+    end
+  else
+    begin
+      Interchange := 0;
+    end;
+
+  e := 2 * dy - dx;
+
+  for i := 1 to dx do
+  begin
+     imgBranco.Canvas.Pixels[trunc(x), trunc(y)] := RGB(0,0,0);
+     while e > 0 do
+     begin
+        if (Interchange = 1)  then
+          x := x + s1
+        else
+          y := y + s2;
+
+        e := e - 2 * dx;
+     end;
+
+     if (Interchange = 1) then
+      y := y + s2
+     else
+      x := y + s1;
+
+     e := e + 2 * dy;
+  end;
+
+end;
+
 
 end.
