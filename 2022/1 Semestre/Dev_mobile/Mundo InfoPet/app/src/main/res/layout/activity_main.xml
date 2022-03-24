@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buldog Francês - Características"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="285dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="411dp"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/caobuldog2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23/03/2022"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="311dp"
+            tools:layout_editor_absoluteY="285dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="388dp"
+            android:layout_height="158dp"
+            android:text="O Bulldog Francês é conhecido por ser tranquilo, atencioso e muito companheiro de seus amigos humanos. Geralmente, se dá muito bem com crianças devido ao seu jeito brincalhão e dócil! Esse pequeno pet gosta de ser divertir, mas é inegável sua essência de cão de companhia, por isso o tutor de um buldogue pode contar com ele para brincadeiras e também para relaxar em casa. "
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="InfoPet"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="616dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anterior"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="605dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="113dp"
+            android:layout_height="50dp"
+            android:text="Próximo"
+            tools:layout_editor_absoluteX="282dp"
+            tools:layout_editor_absoluteY="605dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
