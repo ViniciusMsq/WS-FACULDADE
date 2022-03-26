@@ -69,7 +69,7 @@
 
 ## 11. Explique a cláusula private. Dê um exemplo
 
-    R: Clausula private é utilizada quando precisamos que uma variavel que é global se mantenha privada em cada thread, então passamos #pragma omp parallel private(x, y), assim mesmo sendo x e y globais(fora do bloco), elas serão privadas em cada thread paraela criada.
+    R: Clausula private é utilizada quando precisamos que uma variavel que é global se mantenha privada em cada thread, <br>então passamos #pragma omp parallel private(x, y), assim mesmo sendo x e y globais(fora do bloco), elas serão privadas em cada thread paraela criada.
 
     {
         int i, ,j, x, y;
