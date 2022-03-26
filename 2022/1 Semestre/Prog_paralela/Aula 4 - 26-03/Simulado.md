@@ -136,24 +136,141 @@
 
     d. sections: #pragma omp sections
             -> Nem sempre o problema que está se resolvendo necessita  trabalhar em paralelo com todas as threads/núcleos disponíveis no sistema
-            • O construtor sections faz com que blocos de códigos       individuais sejam executados em threads individuais
+            • O construtor sections faz com que blocos de códigos       individuais sejam executados em threads individuais, blocos de codígos diferentes são executados paralelamente
             •  Exemplo: Atribuir valores para dois vetores A e B, 
             sendo que a atribuição dos valores de A deve ser 
             numa thread e atribuição dos valores de B em outra 
             thread
 
             {
-                
+                #pragma omp parallel
+                {
+                    #pragma omp sections 
+                    {
+                        #pragma omp section
+                        {
+                            for(int i=0; i<n; i++){
+                                printf("\nSection A: %d \n", omp_get_thread_num());
+                                A[i] = i + 10;
+                            }
+                        }
+                        
+                        #pragma omp section
+                        {
+                            for(int i=0; i<n; i++){
+                                printf("\nSection B: %d\n", omp_get_thread_num());
+                                B[i] = i * 8;
+                            }
+                        }
+                    }
+                }
             }
 
 ## 13. Quando se utiliza mais de um construtor de trabalho, são criadas barreiras. Explique
 
-    R: 
+    R: Barreiras são criadas a cada fechamento('}') de construtor de trabalho, assim outro construtor só inicia, após termino do anterior, se temos um contrutor sections seguido de um single, o single só executará após o termino do do processamento das sections, mas essas barreiras podem ser liberadas usando a clausula 'nowait', assim o proximo construtor podera ser executado em paralelo tambem  
+
+    {
+        #pragma omp parallel
+        {
+            #pragma omp sections nowait
+            {
+                #pragma omp section
+                {
+                    for(int i=0; i<n; i++){
+                        printf("\nSection A: %d \n", omp_get_thread_num());
+                        A[i] = i + 10;
+                    }
+                }
+                
+                #pragma omp section
+                {
+                    for(int i=0; i<n; i++){
+                        printf("\nSection B: %d\n", omp_get_thread_num());
+                        B[i] = i * 8;
+                    }
+                }
+            }
+            
+            #pragma omp single
+            {
+                for(int i = 0; i<n; i++){
+                    printf("\nSingle: %d\n", omp_get_thread_num());
+                    C[i]= i + 158;
+                }
+            }
+        }
+    }
 
 ## 14. O que é e quando ocorre uma situação de região crítica? Existe algum recurso para resolver este problema?
 
-    R: 
+    R: É um determinado trecho de código onde não se pode executar de forma paralela, geralmente nestes trechos de códigos, região crítica, há uma ou mais variáveis PÚBLICAS a todas as Threads que são atualizadas, e por serem publicas não se pode atualizalas paralelamente, pois a logica seria quebrada
+
+    • Podemos solucionar usando a clausula 'critical', para que seja executado apenas em uma thread, evitando atualizações de variaveis publicas em paralelo.
 
 ## 15. Implemente um problema utilizando programação paralela que contém região crítica
 
-    R: 
+    R: Exemplo: Produto escalar entre dois vetores A e B
+        formula: P = A[1]*B[1] + A[2]*B[2]...
+
+        No single
+        {
+            P = 0;
+            for(int i = 0; i<n; i++){
+                P = P + A[i] * B[i];
+            }
+        }
+
+        No paralelo: variavel P global para todas as threads, assim é atualizada por todas, podendo ser calculada errada
+        {
+            P = 0;
+
+            #pragma omp parallel
+            {
+                #pragma omp for
+                for(int i = 0; i<n; i++)
+                {
+                    P = P + A[i] * B[i]; // regiao critica
+                }
+            }
+        }
+
+        Usando Critical: Corrigi, não teremos atualizações em paralelo, porque o critical garante que a atualização seja feita apenas por uma thread de cada vez, mas dessa forma usando apenas uma thread o desempenho fica parecido com o não paralelizado, pior que o single por ter de criar as regioes antes criticas 
+        {
+            P = 0;
+
+            #pragma omp parallel
+            {
+                #pragma omp for
+                for(int i = 0; i<n; i++)
+                {
+                    #pragma omp critical
+                    {
+                        P = P + A[i] * B[i]; // regiao critica
+                    }               
+                }
+            }
+        }
+
+        Critial + Desempenho: com P auxiliar, não temos problema de atualizações paralelas na mesma variavel, neste formato a regiao critica será executada na mesma quantidade de numero de threads, no anterior seria 'N' vezes
+        {
+            P = 0;
+
+            #pragma omp parallel
+            {
+                PAUX = 0; // variavel auxiliar privada de cada thread
+
+                #pragma omp for
+                for(int i = 0; i<n; i++)
+                {
+                    PAUX = PAUX + A[i] * B[i];   // soma feita na variavel privada de cada thread    
+                }// barreira
+                //executa após a soma terminar
+                #pragma omp critical
+                {
+                    P = P + PAUX; // regiao critica
+                } // agrega valor da soma no P global 1 vez
+            }
+        }//JOIN
+
+## Fim simulado
