@@ -2,11 +2,11 @@
 
 ## 1. O que se entende por programação paralela e quais são as formas de execução?
 
->Resposta: É a execução de um ou mais código, processos, threads ou programas simultaneamente, temos como executar a programação paralela em um processador com varios nucleos, em uma maquina com varios processadores, utilizar o processador da gpu que possui varios nucleos, em rede entre varias maquinas.
+>R: É a execução de um ou mais código, processos, threads ou programas simultaneamente, temos como executar a programação paralela em um processador com varios nucleos, em uma maquina com varios processadores, utilizar o processador da gpu que possui varios nucleos, em rede entre varias maquinas.
 
 ## 2. Defina Processos
 
-    R: Processo é um programa em execução, esse processo fica na memória e nele contem, codigo e dados do programa, pilha de execução, associação a um conjunto de registradores, outras informações necessárias para execução do programa.
+>R: Processo é um programa em execução, esse processo fica na memória e nele contem, codigo e dados do programa, pilha de execução, associação a um conjunto de registradores, outras informações necessárias para execução do programa.
 
     Slide: 
         • Um programa em execução necessita de recursos de hardware: Processador, Memória e Dispositivos de I/O (Entrada e Saída)
