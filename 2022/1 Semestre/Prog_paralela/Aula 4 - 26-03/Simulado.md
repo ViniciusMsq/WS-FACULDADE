@@ -2,7 +2,7 @@
 
 ## 1. O que se entende por programação paralela e quais são as formas de execução?
 
-    Resposta: É a execução de um ou mais código, processos, threads ou programas simultaneamente, temos como executar a programação paralela em um processador com varios nucleos, em uma maquina com varios processadores, utilizar o processador da gpu que possui varios nucleos, em rede entre varias maquinas.
+    Resposta: É a execução de um ou mais código, processos, threads ou programas simultaneamente, temos como executar a programação paralela em um processador\n com varios nucleos, em uma maquina com varios processadores, utilizar o processador da gpu que possui varios nucleos, em rede entre varias maquinas.
     ------------------------------------------------------------------
     Slide: 
         Executar simultaneamente dois ou mais códigos, processos, threads ou programas
