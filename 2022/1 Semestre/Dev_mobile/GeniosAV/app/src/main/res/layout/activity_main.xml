@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="158dp"
+        android:layout_height="29dp"
+        android:fontFamily="serif"
+        android:text="Recorde Atual"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#027007"
+        android:enabled="false"
+        android:onClick="btnGreenClick"
+        app:layout_constraintBottom_toTopOf="@+id/btnBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="236dp"
+        android:backgroundTint="#044891"
+        android:enabled="false"
+        android:onClick="btnBlueClick"
+        app:layout_constraintBottom_toTopOf="@+id/btnNewGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#730202"
+        android:enabled="false"
+        android:onClick="btnRedClick"
+        app:layout_constraintBottom_toTopOf="@+id/btnBlue"
+        app:layout_constraintEnd_toStartOf="@+id/btnYellow"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGreen" />
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#918201"
+        android:enabled="false"
+        android:onClick="btnYellowClick"
+        app:layout_constraintBottom_toTopOf="@+id/btnBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGreen" />
+
+    <TextView
+        android:id="@+id/txtvRecord"
+        android:layout_width="85dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="00"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnGreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="193dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#5C6BC0"
+        android:fontFamily="serif"
+        android:onClick="btnNewGameClick"
+        android:text="Novo Jogo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.829" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
