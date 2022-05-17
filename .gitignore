@@ -79,4 +79,4 @@ crashlytics-build.properties
 
 *.rar
 
-/[Dd]esenvolvimento_jogos/
+.[Dd]esenvolvimento_jogos/
