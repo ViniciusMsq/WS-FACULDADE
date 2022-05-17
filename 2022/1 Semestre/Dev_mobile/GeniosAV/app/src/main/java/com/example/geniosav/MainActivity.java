@@ -13,9 +13,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Random;
-
+import java.lang.Math;
 
 public class MainActivity extends AppCompatActivity {
+
     //Cores iniciais
     String corGreen_Initial = "#027007";
     String corYellow_Initial = "#918201";
@@ -28,22 +29,25 @@ public class MainActivity extends AppCompatActivity {
     String corRed_Lit = "#FF0202";
 
     //Componentes
-    Button btnGreen, btnYellow, btnBlue, btnRed, btnNewGame, btnSendGame;
-    TextView txtvRecord;
+    TextView txtvRecord, txtvRound;
+    Button btnGreen, btnYellow, btnBlue, btnRed, btnNewGame;
 
+    //controle de delay
     Handler handler = new Handler();
 
-
-
+    //SharedPreference
+    private final static String ARQ_PREF = "PREF";
+    Preference pref;
 
     //variaveis de controle
-    int ValueRandom;
-    int ValueRecord;
-    int indexClick = 0;
     int point = 0;
     int delay = 1;
     int speed = 500;
+    int indexClick = 0;
+    int timerClick = 0;
+    double difficulty = 0.95;
 
+    //Listas
     ArrayList<Integer> sequenceRandom = new ArrayList();
     ArrayList<Integer> sequencePlayer = new ArrayList();
 
@@ -78,15 +82,51 @@ public class MainActivity extends AppCompatActivity {
 
         btnNewGame = findViewById(R.id.btnNewGame);
 
+        txtvRound = findViewById(R.id.txtvRound);
         txtvRecord = findViewById(R.id.txtvRecord);
+
+        salvaRecord(0);
+
+    }
+
+    private void setValuesDefault(){
+        point = 0;
+        delay = 1;
+        speed = 500;
+        indexClick = 0;
+
+        sequencePlayer.clear();
+        sequenceRandom.clear();
+
+        txtvRound.setText("00");
     }
 
     private void setColorsInitials(){
-                btnGreen.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corGreen_Initial)));
-                btnYellow.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corYellow_Initial)));
-                btnBlue.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corBlue_Initial)));
-                btnRed.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corRed_Initial)));
+        btnGreen.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corGreen_Initial)));
+        btnYellow.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corYellow_Initial)));
+        btnBlue.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corBlue_Initial)));
+        btnRed.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corRed_Initial)));
     }
+
+    private void lockColorButtons(boolean isLock){
+        btnGreen.setEnabled(isLock);
+        btnYellow.setEnabled(isLock);
+        btnBlue.setEnabled(isLock);
+        btnRed.setEnabled(isLock);
+    }
+
+    private int generateRandomNumber(){
+        Random random = new Random();
+        return random.nextInt(4);
+    }
+
+    private void NewGame() throws InterruptedException {
+        btnNewGame.setEnabled(false);
+        setValuesDefault();
+        round();
+    }
+
+
 
     private void round() throws InterruptedException {
 
@@ -102,158 +142,116 @@ public class MainActivity extends AppCompatActivity {
             delay++;
 
             switch (sequenceRandom.get(i)) {
-                case 0:
-                    handler.postDelayed(new Runnable() {
-                        public void run() {
-                            btnGreen.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corGreen_Lit)));
-                        }
-                    }, delay * speed);
-                    delay++;
+                case 0: handler.postDelayed(new Runnable() {
+                            public void run() {
+                                btnGreen.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corGreen_Lit)));
+                            }
+                        },  delay*speed);
+                        delay++;
                     break;
-                case 1:
-                    handler.postDelayed(new Runnable() {
-                        public void run() {
-                            btnYellow.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corYellow_Lit)));
-                        }
-                    }, delay * speed);
-                    delay++;
+                case 1: handler.postDelayed(new Runnable() {
+                            public void run() {
+                                btnYellow.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corYellow_Lit)));
+                            }
+                        }, delay * speed);
+                        delay++;
                     break;
-                case 2:
-                    handler.postDelayed(new Runnable() {
-                        public void run() {
-                            btnBlue.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corBlue_Lit)));
-                        }
-                    }, delay * speed);
-                    delay++;
+                case 2: handler.postDelayed(new Runnable() {
+                            public void run() {
+                                btnBlue.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corBlue_Lit)));
+                            }
+                        }, delay * speed);
+                        delay++;
                     break;
-                case 3:
-                    handler.postDelayed(new Runnable() {
-                        public void run() {
-                            btnRed.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corRed_Lit)));
-                        }
-                    }, delay * speed);
-                    delay++;
+                case 3: handler.postDelayed(new Runnable() {
+                            public void run() {
+                                btnRed.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corRed_Lit)));
+                            }
+                        }, delay * speed);
+                        delay++;
                     break;
             }
-
-            /*if(arrayNum[i] == 0){
-                handler.postDelayed(new Runnable() { public void run(){
-                    btnGreen.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corGreen_Lit)));
-                }}, delay * speed);
-                delay++;
-            }
-
-            if(arrayNum[i] == 1){
-                handler.postDelayed(new Runnable() { public void run(){
-                    btnYellow.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corYellow_Lit)));
-                }}, delay * speed);
-                delay++;
-            }
-
-            if(arrayNum[i] == 2){
-                handler.postDelayed(new Runnable() { public void run(){
-                    btnBlue.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corBlue_Lit)));
-                }}, delay * speed);
-                delay++;
-            }
-
-            if(arrayNum[i] == 3){
-                handler.postDelayed(new Runnable() { public void run(){
-                    btnRed.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corRed_Lit)));
-                }}, delay * speed);
-                delay++;
-            }
-
-            if(arrayNum.length-1 == i){
-                handler.postDelayed(new Runnable() { public void run(){
-                    btnGreen.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corGreen_Initial)));
-                    btnYellow.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corYellow_Initial)));
-                    btnBlue.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corBlue_Initial)));
-                    btnRed.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(corRed_Initial)));
-                }}, delay * speed);
-            }*/
-
 
             if (sequenceRandom.size() - 1 == i) {
                 handler.postDelayed(new Runnable() {
                     public void run() {
-                        setColorsInitials();
-                        unlockColorButtons();
                         indexClick = 0;
+                        setColorsInitials();
                         sequencePlayer.clear();
+                        lockColorButtons(true);
                     }
                 }, delay * speed);
-
             }
         }
     }
 
-    private void NewGame() throws InterruptedException {
-        btnNewGame.setEnabled(false);
-        delay = 1;
-        indexClick = 0;
-        point = 0;
-        sequencePlayer.clear();
-        sequenceRandom.clear();
-        round();
-    }
 
-    private void unlockColorButtons(){
-        btnGreen.setEnabled(true);
-        btnYellow.setEnabled(true);
-        btnBlue.setEnabled(true);
-        btnRed.setEnabled(true);
 
-    }
-
-    private void lockColorButtons(){
-        btnGreen.setEnabled(false);
-        btnYellow.setEnabled(false);
-        btnBlue.setEnabled(false);
-        btnRed.setEnabled(false);
-
-    }
-
-    private int generateRandomNumber(){
-        Random random = new Random();
-        return random.nextInt(4);
+    private void playerClickButtons(int colorButton) throws InterruptedException {
+        indexClick++;
+        timerClick++;
+        sequencePlayer.add(colorButton);
+        comparingSequence();
     }
 
     private void comparingSequence() throws InterruptedException {
 
         for (int index = 0; index < indexClick; index++) {
 
-            System.out.println("IndexClick: "+indexClick);
-            System.out.println("Player("+index+")"+sequencePlayer.get(index));
-            System.out.println("Radoom("+index+")"+sequenceRandom.get(index));
-            System.out.println(sequencePlayer.toString() + " --- " + sequenceRandom.toString());
-
             if (sequenceRandom.get(index) != sequencePlayer.get(index)) {
-                ValueRecord = point;
-                lockColorButtons();
+                salvaRecord(point);
                 btnNewGame.setEnabled(true);
+                lockColorButtons(false);
                 Toast.makeText(this, "Sequencia errada, você está eliminado", Toast.LENGTH_LONG).show();
-
             } else {
-                point++;
-
                 if (index == sequenceRandom.size()-1) {
+                    point++;
+                    delay = 1;
+                    speed = (int) Math.floor(speed * difficulty);
+                    txtvRound.setText(""+point);
+                    lockColorButtons(false);
                     Toast.makeText(this, "Sequencia correta, vamos para proxima rodada", Toast.LENGTH_LONG).show();
-                    lockColorButtons();
-                    txtvRecord.setText(""+point);
                     round();
                 }
-
             }
         }
     }
 
-    private void playerClickButtons(int colorButton) throws InterruptedException {
-        indexClick++;
-        sequencePlayer.add(colorButton);
-        comparingSequence();
+    public void salvaRecord(int qtAcertos){
+        pref = new Preference(getApplicationContext());
 
+        String recordAtual = pref.recuperarDados();
+
+        if(recordAtual == ""){
+            recordAtual = "0";
+        }
+
+        if(qtAcertos > Integer.parseInt(recordAtual)){
+            pref.salvarDados(Integer.toString(qtAcertos));
+        }
+        txtvRecord.setText(pref.recuperarDados());
     }
 
 
+    /*private void timeOfPlay() {
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                if(timerClick != 0){
+                    System.out.println("teste");
+                    timerClick = 0;
+                }else{
+                    timerClick = 0;
+                    //endGame();
+                    System.out.println("teste2");
+                }
+            }
+        }, delay*1000);
+    }*/
+
+    /*private void endGame(){
+        salvaRecord(point);
+        btnNewGame.setEnabled(true);
+        lockColorButtons(false);
+        Toast.makeText(this, "Sequencia errada, você está eliminado", Toast.LENGTH_LONG).show();
+    }*/
 }
