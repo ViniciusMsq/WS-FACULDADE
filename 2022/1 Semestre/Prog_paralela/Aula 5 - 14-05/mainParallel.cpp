@@ -4,13 +4,32 @@
 using namespace std;
 
 long double Fibonacci(int n){
+	
+	long double i, j;
+	
 	if(n<1) return 0;
 	
-	if(n == 1){
+	if(n == 1 || n == 2){
 		return 1;
 	}
-	else{
+	else if(n<30){
 		return Fibonacci(n-1) + Fibonacci(n-2);
+	}
+	else{
+		#pragma omp task shared(i)
+		{
+			i = Fibonacci(n-1);
+		}
+		
+		#pragma omp task shared(j)
+		{
+			j = Fibonacci(n-2);
+		}
+		
+		#pragma omp taskwait
+		{
+			return i + j;
+		}
 	}
 }
 
@@ -25,7 +44,13 @@ int main(int argc, char** argv) {
 	
 	t0 = omp_get_wtime();
 	
-	fibo = Fibonacci(n);
+	#pragma omp parallel
+	{
+		#pragma omp single
+		{
+			fibo = Fibonacci(n);
+		}	
+	}
 	
 	tf = omp_get_wtime();
 	

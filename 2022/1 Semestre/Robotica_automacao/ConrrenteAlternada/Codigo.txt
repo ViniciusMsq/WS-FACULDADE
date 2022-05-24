@@ -1,0 +1,26 @@
+#include <Servo.h> //importando biblioteca ServoMotor
+
+Servo servo1; //declarando variável do tipo servo
+int pino_servo = 3; //identificando porta digital do ServoMotor
+
+void setup()
+{
+  pinMode(13, INPUT);
+  pinMode(11, INPUT);
+  servo1.attach(pino_servo);
+}
+
+void loop()
+{
+  if (digitalRead(13) == HIGH) //apertar botão 01
+  {
+   	servo1.write(180); 
+  }
+  
+  if (digitalRead(11) == HIGH) //apertar botão 02
+  {
+  	servo1.write(1);
+  }
+  
+  delay(20);
+}

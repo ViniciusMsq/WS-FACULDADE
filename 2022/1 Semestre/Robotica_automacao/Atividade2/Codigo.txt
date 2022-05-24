@@ -1,0 +1,79 @@
+#include <Servo.h> //importando biblioteca ServoMotor
+
+Servo servo1; //declarando variável do tipo servo
+int pino_servo = 10; //identificando porta digital do ServoMotor
+
+#define pinTrig 12
+#define pinEcho 13
+
+#define ledPinR 9
+#define ledPinY 3
+#define ledPinG 2
+
+const float velSom = 0.000340;
+
+void setup()
+{
+  servo1.attach(pino_servo);
+  
+  pinMode(pinEcho, INPUT);
+  pinMode(pinTrig, OUTPUT);
+  
+  pinMode(ledPinR, OUTPUT); 
+  pinMode(ledPinY, OUTPUT); 
+  pinMode(ledPinG, OUTPUT); 
+  
+  Serial.begin(9600); 
+}
+
+void loop()
+{
+  DispararPulso();
+  
+  float tempoEcho = pulseIn(pinEcho, HIGH);
+  Serial.println(Distancia(tempoEcho));
+  
+  float dist = Distancia(tempoEcho);
+  
+
+  
+  if ( dist <= 1 ) 
+  {
+    digitalWrite(ledPinR, HIGH);
+    digitalWrite(ledPinY, LOW);
+    digitalWrite(ledPinG, LOW);
+    Serial.println("led VERMELHO...");
+    servo1.write(180); 
+  }
+  else if ( dist <= 2 and dist > 1 ) 
+  {
+    digitalWrite(ledPinR, LOW);
+    digitalWrite(ledPinY, HIGH);
+    digitalWrite(ledPinG, LOW);
+    Serial.println("led AMARELO...");
+
+  }
+  else
+  {
+    digitalWrite(ledPinR, LOW);
+    digitalWrite(ledPinY, LOW);
+    digitalWrite(ledPinG, HIGH); 
+    Serial.println("led VERDE...");
+    servo1.write(1);
+
+  }
+  
+  delay(500);
+}
+
+void DispararPulso(){
+ 	
+  	digitalWrite(pinTrig, HIGH);
+  	delayMicroseconds(10);
+    digitalWrite(pinTrig, LOW);
+}
+
+float Distancia(float tempo){
+
+	return((tempo*velSom)/2);
+}
