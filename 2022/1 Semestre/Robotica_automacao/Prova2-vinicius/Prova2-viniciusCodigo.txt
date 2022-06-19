@@ -1,0 +1,43 @@
+#include <LiquidCrystal.h>
+#include <Servo.h> //importando biblioteca ServoMotor
+
+LiquidCrystal led(12, 11, 4, 5, 6, 7);
+
+Servo servo1; //declarando variável do tipo servo
+int pino_servo = 10; //identificando porta digital do ServoMotor
+
+
+void setup()
+{
+  led.begin(16,2);
+  led.setCursor(0,0);
+  
+  pinMode(9, INPUT);
+  pinMode(8, INPUT);
+  servo1.attach(pino_servo);
+  
+  Serial.begin(9600); 
+}
+
+void loop()
+{
+  led.setCursor(0,0);
+  
+  if (digitalRead(9) == HIGH) //apertar botão 02
+  {
+  	servo1.write(180);
+    led.print("Botao 1.........");
+    led.setCursor(0,1);
+    led.print("virando 180.....");
+  }
+  
+  if (digitalRead(8) == HIGH) //apertar botão 01
+  {
+   	servo1.write(0); 
+    led.print("Botao 2.........");
+    led.setCursor(0,1);
+    led.print("posicao inicial....");
+  }
+  
+  delay(20);
+}

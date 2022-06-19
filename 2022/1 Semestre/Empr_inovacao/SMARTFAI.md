@@ -15,7 +15,7 @@ Sistema de coleta de lixo reciclavel
   
 - pontuação: a pontuação será repassada pela quantidade de lixo coletada e tambem pela diferença dos produtos, sendo papeis, vidros, plastico, metais e lixo eletronicos serão coletados para descartes conscinte assim o elertonico terá uma pontuação maior
 
-
+    
 - pelo aplicativo é possivel que a população tenha informações como
     - o dia que passará, previsão de horario
     - consegue visualizar sua pontuação

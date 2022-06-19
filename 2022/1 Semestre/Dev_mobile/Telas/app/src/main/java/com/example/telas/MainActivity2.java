@@ -15,9 +15,9 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         Log.i(Categoria, getClassName()+"***onCreate");
-        TextView txtparemetro = findViewById(R.id.txtParametro);
+        TextView edtTeste = findViewById(R.id.edtTeste);
 
-        edtTeste =(EditText)findViewById(R.id.edtTeste);
+        //edtTeste =(edtTeste)findViewById(R.id.edtTeste);
 
         Intent i= getIntent();
 
@@ -27,7 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         {
 
-            String mostraTexto = params.getString(“varmsg");
+            String mostraTexto = params.getString("varmsg");
 
                     edtTeste.setText(mostraTexto);
 

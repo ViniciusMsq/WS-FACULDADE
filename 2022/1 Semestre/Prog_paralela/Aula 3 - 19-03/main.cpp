@@ -10,7 +10,7 @@ int main(int argc, char** argv) {
 	
 	#pragma omp parallel
 	{
-		#pragma omp sections nowait
+		#pragma omp sections
 		{
 			#pragma omp section
 			{
